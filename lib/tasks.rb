@@ -1,13 +1,14 @@
 require './lib/lists'
 
 class Task
-  def initialize name
-    @name = name
+  def initialize descr
+    @descr = descr
     @due_date = "unknown"
     @priority = 5
     @complete = false
   end
-  def name
-    @name
+  def descr
+    puts @descr
+    # @descr
   end
 end

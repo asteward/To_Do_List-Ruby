@@ -13,7 +13,7 @@ class List
   end
   def task_list
     @tasks.each do |task|
-      task.title
+      puts task.descr
     end
   end
 end
